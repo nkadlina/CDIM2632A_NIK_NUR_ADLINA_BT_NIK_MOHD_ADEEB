@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 150vh;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/564x/7c/65/dd/7c65ddb21b18e4a884b1b80efea2aad4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+span{
+    color:#6998ba;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: capitalize;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: whitesmoke;
+    margin: 20px 0px;
+    font-size: 75px;
+}
+h3{
+    color: whitesmoke;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color:black;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid  rgb(77, 137, 69);
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: rgb(77, 137, 69);
+    color: whitesmoke;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+.about{  
+    width: 100%;  
+    padding: 100px 0px;  
+    background-color:  #f3c4dacb; 
+} 
+.about img{  
+height: auto;  
+width: 300px; 
+} 
+.about-text{ 
+width: 600px; 
+} 
+.main{  
+    width: 1130px; 
+    max-width: 95%;  
+    margin: 0 auto;  
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+}
+.about-text h2{ 
+    color: white;  
+    font-size: 75px; 
+    text-transform: capitalize;  
+    margin-bottom: 20px; 
+} 
+.about-text h5{ 
+    color: whitesmoke; 
+    letter-spacing: 2px;  
+    font-size: 22px; margin-bottom: 25px;  
+    text-transform: capitalize; 
+}
+.about-text p{ 
+    color: rgb(255, 255, 255);  
+    letter-spacing: 1px;  
+    line-height: 28px; font-size: 18px;  
+    margin-bottom: 45px; 
+}
+.education{
+    width: 100%;
+    padding: 100px 0px;
+    background:  #f3c4dabb;
+}
+.tittle h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+}
+.card{
+    height: 400px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #c551a872;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color:white;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: whitesmoke;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.achievement{
+    width: 100%;
+    padding: 100px 0px;
+    background:  #f3c4dac0;
+}
+.tittle h2{
+    color: white;
+    font-size: 70px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.skills{
+    max-width: 1500px;
+    text-align: center;
+    padding: 100px 0;
+    margin: 0 auto;
+    background:  #f3c4daba;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+.tittle h2{
+    color: white;
+    font-size: 70px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.card{
+    height: 400px;
+    width: 400px;
+    padding: 20px 50px;
+    background: #c551a87d;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 50px 0px;
+    color:white;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: whitesmoke;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.videoresume{
+    width: 100%;
+    padding: 100px 0px;
+    background:  #f3c4dabf;
+}
+
+.tittle h2{
+    color: white;
+    font-size: 55px;
+    width: 1110px;
+    margin: 30px auto;
+    text-align: center;
+}
+/* Video resume section styles */ 
+.video-section{
+    text-align: center;
+    margin-top: 50px ;
+    margin-bottom: 203px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  }
+/* Style the footer */
+.footer {
+    background-color: #c551a872;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.student{  
+    width: 100%;  
+    padding: 100px 0px;  
+    background-color:  #e689f1cb; 
+} 
+.student img{  
+height: auto;  
+width: 300px; 
+} 
+.student-text{ 
+width: 600px; 
+} 
+.main{  
+    width: 1130px; 
+    max-width: 95%;  
+    margin: 0 auto;  
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+}
+.student-text h2{ 
+    color: rgb(255, 250, 250);  
+    font-size: 75px; 
+    text-transform: capitalize;  
+    margin-bottom: 20px; 
+} 
+.student-text h5{ 
+    color: rgb(255, 255, 255); 
+    letter-spacing: 2px;  
+    font-size: 22px; margin-bottom: 25px;  
+    text-transform: capitalize; 
+}
+.student-text p{ 
+    color: rgb(255, 255, 255);  
+    letter-spacing: 1px;  
+    line-height: 28px; font-size: 18px;  
+    margin-bottom: 45px; 
+}
